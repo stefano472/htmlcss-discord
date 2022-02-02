@@ -6,4 +6,145 @@
 
 body {
     font-family: 'Rubik', sans-serif;
+    color: #23272a;
+}
+
+/* Utility */
+
+.w-10{
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100% ;
+}
+
+.m-4 {
+    margin: 4vh;
+}
+
+.lh-5 {
+    line-height: 5vh;
+}
+
+.va-mid {
+    vertical-align: middle;
+}
+
+.white {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-dark-grey {
+    background-color: #23272a;
+}
+
+.floating {
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both ;
+}
+
+a {
+    text-decoration: none;
+    color: #23272a;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 3vh;
+}
+
+.centratura {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Rule */
+
+header {
+    padding-top: 1vh;
+    background-color: #404eed;
+}
+
+.top-header {
+    margin: 1vh auto;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1vw;
+    list-style-type: none;
+}
+
+nav li a {
+    color: white;
+    font-size: 0.7rem;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.collegamenti {
+    text-align: right;
+}
+
+.collegamenti > a.btn {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.collegamenti > a.btn:hover {
+    color: #404eed;
+    text-decoration: underline;
+}
+
+.jumbo-tron {
+    text-align: center;
+    height: 50vh;
+    position: relative;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+.jumbo-tron span.btn {
+    font-size: 0.8rem;
+    margin: 0 1vw;
+}
+
+.jumbo-tron span.btn:hover {
+    color: #404eed;
+    text-decoration: underline;
+    cursor: pointer;
 }
