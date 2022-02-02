@@ -27,6 +27,10 @@ h2 {
     width: 15%;
 }
 
+.w-30 {
+    width: 30%;
+}
+
 .w-40 {
     width: 40%;
 }
@@ -91,6 +95,14 @@ h2 {
     color: white;
 }
 
+.dark-gray {
+    color: #23272a;
+}
+
+.light-blue{
+    color: #5865f2;
+}
+
 .bg-white {
     background-color: white;
 }
@@ -104,7 +116,7 @@ h2 {
 }
 
 .bg-light-blue {
-    background-color: #8ea1e1;
+    background-color: #5865f2;
 }
 
 .floating {
@@ -119,7 +131,6 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #23272a;
 }
 
 .btn {
@@ -167,10 +178,11 @@ nav li a:hover {
 .collegamenti-head > a.btn {
     font-size: 0.7rem;
     font-weight: bold;
+    color: #23272a;
 }
 
 .collegamenti-head > a.btn:hover {
-    color: #404eed;
+    color: #5865f2;
     text-decoration: underline;
 }
 
@@ -189,7 +201,7 @@ nav li a:hover {
 }
 
 .jumbo-tron a.btn:hover {
-    color: #404eed;
+    color: #5865f2;
     text-decoration: underline;
 }
 
@@ -228,6 +240,45 @@ nav li a:hover {
 }
 
 #fourth-sec a.btn:hover {
-    color: #404eed;
+    color: #23272a;
+    text-decoration: underline;
+}
+
+footer li{
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+    width: calc(100% / 4 - 4vw);
+    list-style-type: none;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+}
+
+li.floating {
+    margin: 0 2vw;
+}
+
+footer h4 a {
+    color: #5865f2;
+}
+
+footer li > a {
+    color: white;
+}
+
+footer hr {
+    border: 1px solid #5865f2;
+    margin: 2vh auto;
+}
+
+.collegamenti-footer {
+    font-size: 0.7rem;
+    text-align: right;
+    float: right;
+}
+
+.collegamenti-footer a:hover {
+    color: #23272a;
     text-decoration: underline;
 }
