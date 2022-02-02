@@ -11,6 +11,14 @@ body {
 
 /* Utility */
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
 .w-10{
     width: 10%;
 }
@@ -19,8 +27,16 @@ body {
     width: 15%;
 }
 
+.w-40 {
+    width: 40%;
+}
+
 .w-50 {
     width: 50%;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 .w-70 {
@@ -36,7 +52,27 @@ body {
 }
 
 .m-4 {
-    margin: 4vh;
+    margin: 4vh 0;
+}
+
+.mbottom-2 {
+    margin-bottom: 2vh;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.padd-section {
+    padding: 10vh 0;
+}
+
+.text-main-right {
+    padding: 3vh 0 3vh 6vw;
+}
+
+.text-main-left {
+    padding: 3vh 6vw 3vh 0;
 }
 
 .lh-5 {
@@ -55,8 +91,12 @@ body {
     background-color: white;
 }
 
-.bg-dark-grey {
+.bg-dark-gray {
     background-color: #23272a;
+}
+
+.bg-light-gray {
+    background-color: #f6f6f6;
 }
 
 .floating {
@@ -136,6 +176,7 @@ nav li a:hover {
     position: relative;
     background-image: url("../img/jumbo.png");
     background-size: cover;
+    background-position: center;
 }
 
 .jumbo-tron span.btn {
@@ -148,3 +189,20 @@ nav li a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+#first-sec {
+    position: relative;
+}
+
+#second-sec {
+    position: relative;
+}
+
+#third-sec {
+    position: relative;
+}
+
+#fourth-sec {
+    position: relative;
+}
+
