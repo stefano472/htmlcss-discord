@@ -79,6 +79,10 @@ h2 {
     line-height: 5vh;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .va-mid {
     vertical-align: middle;
 }
@@ -97,6 +101,10 @@ h2 {
 
 .bg-light-gray {
     background-color: #f6f6f6;
+}
+
+.bg-light-blue {
+    background-color: #8ea1e1;
 }
 
 .floating {
@@ -137,10 +145,6 @@ header {
     margin: 1vh auto;
 }
 
-nav {
-    text-align: center;
-}
-
 nav li {
     display: inline-block;
     margin: 0 1vw;
@@ -156,38 +160,37 @@ nav li a:hover {
     text-decoration: underline;
 }
 
-.collegamenti {
+.collegamenti-head {
     text-align: right;
 }
 
-.collegamenti > a.btn {
+.collegamenti-head > a.btn {
     font-size: 0.7rem;
     font-weight: bold;
 }
 
-.collegamenti > a.btn:hover {
+.collegamenti-head > a.btn:hover {
     color: #404eed;
     text-decoration: underline;
 }
 
 .jumbo-tron {
     text-align: center;
-    height: 50vh;
+    height: 60vh;
     position: relative;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-position: center;
 }
 
-.jumbo-tron span.btn {
+.jumbo-tron a.btn {
     font-size: 0.8rem;
     margin: 0 1vw;
 }
 
-.jumbo-tron span.btn:hover {
+.jumbo-tron a.btn:hover {
     color: #404eed;
     text-decoration: underline;
-    cursor: pointer;
 }
 
 #first-sec {
@@ -206,3 +209,25 @@ nav li a:hover {
     position: relative;
 }
 
+#fourth-sec h3 {
+    padding-top: 3vh;
+    background-image: url(../img/stars.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.collegamenti-main {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#fourth-sec a.btn {
+    font-size: 0.8rem;
+}
+
+#fourth-sec a.btn:hover {
+    color: #404eed;
+    text-decoration: underline;
+}
