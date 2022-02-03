@@ -267,6 +267,20 @@ footer li > a {
     color: white;
 }
 
+#language img {
+    height: 2vh;
+    vertical-align: middle;
+}
+
+#language select {
+    font-family: 'Rubik', sans-serif;
+    border-color: #23272a;
+}
+
+.social i {
+    margin-right: 2vw;
+}
+
 footer hr {
     border: 1px solid #5865f2;
     margin: 2vh auto;
@@ -281,4 +295,14 @@ footer hr {
 .collegamenti-footer a:hover {
     color: #23272a;
     text-decoration: underline;
+}
+
+.wave svg{
+    color: #f6f6f6;
+    display: block;
+}
+
+.wave.reverse svg {
+    color: white;
+    background-color: #f6f6f6;
 }
